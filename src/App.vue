@@ -1,17 +1,19 @@
 <script>
  import AppHeader from './components/AppHeader.vue'
  import AppMain from './components/AppMain.vue'
- 
+ import AppDropdown from './components/AppDropdown.vue'
   export default {
     components: {
       AppHeader,
-      AppMain
+      AppMain,
+      AppDropdown
     }
   }
 </script>
 
 <template>
   <AppHeader />
+  <AppDropdown />
   <AppMain />
 </template>
 
