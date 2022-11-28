@@ -1,6 +1,7 @@
 <script>
  import AppHeader from './components/AppHeader.vue'
  import AppMain from './components/AppMain.vue'
+ 
   export default {
     components: {
       AppHeader,
@@ -15,5 +16,9 @@
 </template>
 
 <style lang="scss">
-  @import './style/global.scss'
+  @import './style/global.scss';
+
+  body{
+    background-color: var(--primary-color);
+  }
 </style>
