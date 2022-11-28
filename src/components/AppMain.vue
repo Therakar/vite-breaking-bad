@@ -1,20 +1,26 @@
 <!-- MAIN -->
 <script>
-    export default{
-  name: "AppMain"
-}
+import AppCounter from './AppCounter.vue'
+export default{
+  name: "AppMain",
+  components: {
+    AppCounter,
+  }
+
+  }
+  
 </script>
 
 <template>
     <div class="container">
-        
+        <AppCounter />
     </div>
 </template>
 
 <style lang="scss" scoped>
     .container{
-        width: 87.5rem;
-        height: 18.75rem;
+       
+        padding: 3.125rem;
         background-color: var(--secondary-color);
     }
 </style>
